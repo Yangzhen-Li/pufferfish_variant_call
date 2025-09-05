@@ -4,8 +4,8 @@
 
 # Define directories and inputs (update paths accordingly)
 ref_genome="/path/to/reference_genome.fa"
-gvcf_dir="/path/to/sole_WGS_pipeline/gvcf/"               # Directory containing individual *.g.vcf files
-output_dir="/path/to/sole_WGS_pipeline/combined_gvcf/"    # Directory for the combined GVCF output
+gvcf_dir="/path/to/gvcf/"               # Directory containing individual *.g.vcf files
+output_dir="/path/to/combined_gvcf/"    # Directory for the combined GVCF output
 combined_gvcf_file="${output_dir}combined.g.vcf.gz"       # Name of the combined GVCF to produce
 log_file="${output_dir}combine_gvcfs.log"                 # Log file for this process
 
