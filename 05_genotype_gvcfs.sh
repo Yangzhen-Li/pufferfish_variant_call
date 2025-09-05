@@ -4,8 +4,8 @@
 
 # Define input and output (update paths accordingly)
 ref_genome="/path/to/reference_genome.fa"
-combined_gvcf_file="/path/to/sole_WGS_pipeline/combined_gvcf/combined.g.vcf.gz"
-output_dir="/path/to/sole_WGS_pipeline/vcf"
+combined_gvcf_file="/path/to/combined_gvcf/combined.g.vcf.gz"
+output_dir="/path/to/vcf"
 output_vcf_file="${output_dir}/all_samples.vcf.gz"   # Output multi-sample VCF
 log_file="${output_dir}/genotype_gvcf.log"
 
