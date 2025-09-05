@@ -4,10 +4,10 @@
 
 # Define directories (update paths accordingly)
 ref_genome="/path/to/reference_genome.fa"
-bam_dir="/path/to/sole_WGS_pipeline/bam/marked_duplicates/"  # Input marked BAMs from step 2
-output_dir="/path/to/sole_WGS_pipeline/gvcf/"                # Output directory for GVCF files
-tmp_dir="/path/to/sole_WGS_pipeline/tmp/"                    # Temp directory (for GATK if needed)
-id_list="/path/to/sole_WGS_pipeline/cleandata/id_list"       # List of sample IDs
+bam_dir="/path/to/bam/marked_duplicates/"  # Input marked BAMs from step 2
+output_dir="/path/to/gvcf/"                # Output directory for GVCF files
+tmp_dir="/path/to/tmp/"                    # Temp directory (for GATK if needed)
+id_list="/path/to/cleandata/id_list"       # List of sample IDs
 
 # Create output and temp directories if they do not exist
 mkdir -p "$output_dir" "$tmp_dir"
