@@ -4,8 +4,8 @@
 # Adjust the directory paths and max_jobs as needed before running.
 
 # Directory paths (update these to your paths)
-raw_data_dir="/path/to/sole_WGS_pipeline/rawdata/"
-clean_data_dir="/path/to/sole_WGS_pipeline/cleandata/"
+raw_data_dir="/path/to/rawdata/"
+clean_data_dir="/path/to/cleandata/"
 
 # Ensure the output directory exists
 mkdir -p "${clean_data_dir}"
