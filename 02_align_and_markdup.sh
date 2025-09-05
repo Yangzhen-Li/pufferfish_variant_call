@@ -6,12 +6,12 @@
 
 # Define directories and files (update paths accordingly)
 ref_genome="/path/to/reference_genome.fa"              # Reference genome FASTA
-clean_data_dir="/path/to/sole_WGS_pipeline/cleandata/" # Directory with cleaned FASTQ files from step 1
-bam_dir="/path/to/sole_WGS_pipeline/bam/"              # Output directory for sorted BAM files
+clean_data_dir="/path/to/cleandata/" # Directory with cleaned FASTQ files from step 1
+bam_dir="/path/to/bam/"              # Output directory for sorted BAM files
 marked_dir="${bam_dir}marked_duplicates/"              # Output directory for duplicate-marked BAMs
-gvcf_dir="/path/to/sole_WGS_pipeline/gvcf/"            # (Will be used in later steps, created here for completeness)
-tmp_dir="/path/to/sole_WGS_pipeline/tmp/"              # Temp directory for Picard/GATK (if needed)
-id_list="/path/to/sole_WGS_pipeline/cleandata/id_list" # File to store sample IDs
+gvcf_dir="/path/to/gvcf/"            # (Will be used in later steps, created here for completeness)
+tmp_dir="/path/to/tmp/"              # Temp directory for Picard/GATK (if needed)
+id_list="/path/to/id_list" # File to store sample IDs
 picard_jar="/path/to/picard.jar"                       # Path to Picard jar (MarkDuplicates tool)
 
 # Create necessary directories if they don't exist
